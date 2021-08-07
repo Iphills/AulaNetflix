@@ -1,0 +1,166 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+
+}
+
+
+
+main .logo{
+    color: var(--vermelho);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px; 
+    text-shadow: 5px 5px 10px black;
+
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%) , url(/img/onca.jpg);
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-shadow: 5px 5px 10px black;
+
+
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}   
+
+.filme-principal .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    display: inline-block;
+    padding: 12px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    
+}
+
+
+
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 18px;
+    margin-right: 10px;
+}
+
+.filme-principal .container{
+    width: 60%;
+}
+
+.box-filme{
+    height: 150px;
+    width: 80%;
+    display: block;
+}
+
+section .item{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+section .item:hover{
+    -webkit-filter: opacity(0.5);
+    filter: opacity(0.5);
+    transition: 1s;
+}
+
+section .animais{
+    margin-top: 10px;
+}
+
+
+section .animais1 h1{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+section .animais h1{
+    margin-top: 40px;
+    margin-left: 18px;
+    font-size: 30px;
+}
+
+header .container{
+    height: 40px;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+footer .rodape{
+    height: 40p;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
